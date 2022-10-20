@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <div class="code-sent">
+            Code sent
+        </div>
+
+        <div class="circle">
+            <div>
+                <img class="sms" src="sms.png" alt="sms-logo">
+            </div>
+        </div>
+        </div>
+
+        <div class="pairing-id">
+        Pairing ID
+            <div class="rectangle">
+                <input type="text" oninput="return showicon()" class="input-pairing-id" 
+                autocomplete="off" placeholder=" Pair ID" 
+                />
+                <img class="close" src="close.png" alt="clear-button">
+            </div>
+        </div>
+
+        <div class="pairing-pw">
+            Pairing Passcode
+            <div class="rectangle">
+                <input type="password" name="password" autocomplete="current-password" required="" id="id_password" placeholder="Password"/>
+                <span class="material-symbols-outlined eyeicon" id="togglePassword">
+                    visibility
+                </span>
+                <span class="material-symbols-outlined eyeicon visible-hide" id="togglePassword2">
+                    visibility_off
+                </span>
+            </div>
+            </div>
+        </div>
+
+        <a href=""><button class="pair-btn">PAIR DEVICE</button></a>
+    </div>
+    <script src="password.js"></script>
+</body>
+</html>

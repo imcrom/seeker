@@ -1,0 +1,120 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 90,;
+}
+
+.code-sent{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.circle{
+    background: #FDFDBD;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 7rem;
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+}
+
+.sms {
+    height: 45px;
+    width: 45px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.pairing-id, .pairing-pw{
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.user-id, .user-pw{
+    margin-top: 7px;
+    margin-left: 6px;
+    position: absolute;
+}
+
+.user-pw{
+    font-size: 17px;
+}
+
+
+.rectangle {
+    width: 250px;
+    position:  relative;
+    background-color: #FDFDBD;
+    border-radius: 5px;
+}
+
+.rectangle input{
+    margin: 5px 0;
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: #FDFDBD;
+    padding: 10px 10px;
+}
+
+.clear {
+    display: none;
+}
+.active .clear{
+    position: relative;
+    top: 20px;
+    display: block;
+    right: 20px;
+    color: black;
+}
+.close {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+.eyeicon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.visible-hide{
+    visibility: hidden;
+}
+
+.visible-show {
+    visibility: visible;
+}
+
+.input-pairing-id{
+    font-family: sans-serif;
+}
+
+/* BUTTONS */
+.pair-btn {
+    background: #FDFDBD;
+    border-radius: 24px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    border-color: #f7f8de;
+}
