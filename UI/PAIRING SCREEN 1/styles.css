@@ -1,0 +1,61 @@
+.onemorething {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.key{
+    height: 45px;
+    width: 45px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.circle {
+    background: #FDFDBD;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 7rem;
+    margin-left: 9rem;
+}
+
+.addemergencycontact{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 4rem;
+    margin-left: 25px;
+}
+
+.enableyoutouse {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-left: 25px;
+}
+
+.continue-btn {
+    background: #FDFDBD;
+    border-radius: 24px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    border-color: #f7f8de;
+}
+
+.by-continuing{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 2rem;
+    text-align: center
+}
+
