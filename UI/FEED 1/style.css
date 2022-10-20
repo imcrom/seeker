@@ -1,0 +1,116 @@
+.feed-box {
+    width: 100%;
+    height: 90rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    z-index: 2;
+    background-color: grey;
+}
+
+
+::placeholder {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 60px;
+    opacity: 50%;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center
+}
+
+.input-destination {
+    z-index: 5;
+    border-radius: 50px;
+    border-color: black;
+    height: 100px;
+    margin-top: 135%;
+    margin-left: 3%;
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.header-feed{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+/* HOME BUTTON */
+.material-symbols-outlined {
+    font-size: 100px !important;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 20
+}
+
+.Home:active {
+    border-radius: 80px;
+    background-color: #FDFDBD;
+    height: 60%;
+    width: 20%
+}
+
+.Feed:active {
+    border-radius: 80px;
+    background-color: #FDFDBD;
+    height: 60%;
+    width: 20%;
+}
+
+.Chat:active {
+    border-radius: 80px;
+    background-color: #FDFDBD;
+    height: 60%;
+    width: 20%;
+}
+
+.Radio:active {
+    border-radius: 80px;
+    background-color: #FDFDBD;
+    height: 60%;
+    width: 20%;
+}
+
+.Help:active {
+    border-radius: 80px;
+    background-color: #FDFDBD;
+    height: 60%;
+    width: 20%;
+}
+
+/* MENU BUTTONS */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.flex-container>div {
+    background-color: white;
+    width: 190px;
+    margin: 10px;
+    margin-top: 55px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.header-feed {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
